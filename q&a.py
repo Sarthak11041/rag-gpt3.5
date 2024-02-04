@@ -16,7 +16,7 @@ docs = loader.load()
 print(docs)
 
 
-OPENAI_API_KEY = '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'
+#OPENAI_API_KEY = Enter API Key
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=0)
 context = "\n\n".join(str(p.page_content) for p in docs)
